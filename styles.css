@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+ body {
+            background-color: hsl(30, 54%, 90%);
+            color: hsl(24, 5%, 18%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: hsl(0, 0%, 100%);
+            width: 725px;
+            flex-direction: column;
+            display: flex;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+.content {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.recipe-image{
+    border-radius: 15px;
+}
+.divider {
+    height: 1px;
+    width: 100%;    
+   background-color:  hsl(30, 18%, 87%);
+}
+
+.title {
+    font-family: 'Young',serif;
+    font-size: 2rem;
+    font-weight: semi-bold;
+    color: hsl(24, 5%, 18%);
+}
+.description {
+    font-family: 'Outfit',serif;
+    font-size: .1.2rem;
+    font-weight: regular;
+    color: hsl(24, 5%, 18%);
+}
+
+.prep-time{
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 10px;
+    font-family: 'Outfit',serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+   color:  hsl(14, 45%, 36%);
+    line-height: 2;
+    border-radius: solid 10px;
+    padding: 15px;
+
+}
+.ingredients, .instructions, .nutrition {
+    color:  hsl(14, 45%, 36%);
+    font-family: 'Outfit',serif;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.9;
+}
+.ingredients h2, .instructions h2, .nutrition h2 {
+    color:  hsl(14, 45%, 36%);
+    font-family: 'Young',serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+   
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px 0;
+    text-align: left;
+
+}
+td,th {    
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+    .content {
+        margin: 20px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+    .prep-time {
+        font-size: 0.8rem;
+    }
+    .ingredients, .instructions, .nutrition {
+        font-size: 0.8rem;
+    }
+    table {
+        font-size: 0.8rem;
+    }
+    
+}
