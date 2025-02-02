@@ -29,7 +29,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [https://github.com/JonRe88/Simple-Omelette-Recipe.git](https://github.com/JonRe88/Simple-Omelette-Recipe.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://jonre88.github.io/Simple-Omelette-Recipe/](https://jonre88.github.io/Simple-Omelette-Recipe/)
 
 ## My process
 
